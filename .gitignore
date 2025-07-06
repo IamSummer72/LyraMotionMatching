@@ -1,9 +1,361 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+# Unreal Engine 5 Project .gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these files may be unencrypted
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Including strong name files can present a security risk
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# Since there are multiple workflows, uncomment the next line to ignore bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+UpgradeLog*.txt
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.vbw
+
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush personal settings
+.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI analysis results
+OpenCover/
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# JetBrains Rider
+*.sln.iml
+
+# Unreal Engine specific
+# Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
 *.VC.db
 *.opensdf
 *.opendb
@@ -12,3 +364,126 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+
+# Unreal Engine generated content
+*.generated.h
+*.generated.cpp
+
+# Unreal Engine crash reports
+CrashReportClient/
+CrashReportClient.exe
+
+# Unreal Engine logs
+*.log
+
+# Unreal Engine shader compilation
+ShaderCompileWorker/
+ShaderCompileWorker.exe
+
+# Unreal Engine packaging
+Staged/
+Packaged/
+
+# Unreal Engine source control
+SourceControlSettings/
+
+# Unreal Engine project settings
+*.uproject
+!*.uproject
+
+# Unreal Engine content
+*.uasset
+*.umap
+*.ubulk
+*.uexp
+*.uex
+*.ubulk
+*.uexp
+*.uex
+
+# Unreal Engine source files (keep these)
+!*.cpp
+!*.h
+!*.cs
+!*.csproj
+!*.vcxproj
+!*.vcxproj.filters
+!*.vcxproj.user
+
+# Unreal Engine plugin source files (keep these)
+!Plugins/*/Source/
+!Plugins/*/Source/**/*.cpp
+!Plugins/*/Source/**/*.h
+!Plugins/*/Source/**/*.cs
+!Plugins/*/Source/**/*.csproj
+!Plugins/*/Source/**/*.vcxproj
+!Plugins/*/Source/**/*.vcxproj.filters
+!Plugins/*/Source/**/*.vcxproj.user
+
+# Unreal Engine plugin binaries (keep these for distribution)
+!Plugins/*/Binaries/
+!Plugins/*/Binaries/**/*.dll
+!Plugins/*/Binaries/**/*.exe
+!Plugins/*/Binaries/**/*.lib
+!Plugins/*/Binaries/**/*.pdb
+
+# Unreal Engine plugin content (keep these)
+!Plugins/*/Content/
+!Plugins/*/Content/**/*.uasset
+!Plugins/*/Content/**/*.umap
+!Plugins/*/Content/**/*.ubulk
+!Plugins/*/Content/**/*.uexp
+!Plugins/*/Content/**/*.uex
+
+# Unreal Engine plugin resources (keep these)
+!Plugins/*/Resources/
+!Plugins/*/Resources/**/*
+
+# Unreal Engine plugin documentation (keep these)
+!Plugins/*/Documentation/
+!Plugins/*/Documentation/**/*
+
+# Unreal Engine plugin configuration (keep these)
+!Plugins/*/Config/
+!Plugins/*/Config/**/*.ini
+
+# Unreal Engine plugin descriptor (keep these)
+!Plugins/*/*.uplugin
+
+# Unreal Engine project descriptor (keep this)
+!*.uproject
+
+# Unreal Engine project configuration (keep these)
+!Config/
+!Config/**/*.ini
+
+# Unreal Engine project source (keep these)
+!Source/
+!Source/**/*.cpp
+!Source/**/*.h
+!Source/**/*.cs
+!Source/**/*.csproj
+!Source/**/*.vcxproj
+!Source/**/*.vcxproj.filters
+!Source/**/*.vcxproj.user
+
+# Unreal Engine project content (keep these)
+!Content/
+!Content/**/*.uasset
+!Content/**/*.umap
+!Content/**/*.ubulk
+!Content/**/*.uexp
+!Content/**/*.uex
+
+# Unreal Engine project resources (keep these)
+!Resources/
+!Resources/**/*
+
+# Unreal Engine project documentation (keep these)
+!Documentation/
+!Documentation/**/*
+
+# Unreal Engine project README (keep these)
+!README.md
+!README.txt
+!*.md
