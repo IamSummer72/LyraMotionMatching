@@ -10,6 +10,7 @@ Includes:
 - Walk/Jog
 - Start/Cycle/Stop/Pivot
 - Jump/Fall/Land
+
 Also, this project files include basic character settings. You can try this system quickly.
 If you want to migrate this system to your project, only you have is migrating "LyraMotionMatching" plugin.
 
