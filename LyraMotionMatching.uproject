@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.6",
+	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -306,6 +306,14 @@
 		},
 		{
 			"Name": "ArchVisCharacter",
+			"Enabled": false
+		},
+		{
+			"Name": "AIAssistant",
+			"Enabled": true
+		},
+		{
+			"Name": "LyraLocomotion",
 			"Enabled": false
 		}
 	],
